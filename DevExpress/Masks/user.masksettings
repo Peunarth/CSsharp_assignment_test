@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DesignInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Items>
+    <MaskManagerInfo Type="DateTimeOffsetMaskManager">
+      <Specifiers>
+        <Specifier Name="Khmer mask" Value="dd - MM - yyyy" Values="K@" />
+      </Specifiers>
+    </MaskManagerInfo>
+  </Items>
+</DesignInfo>

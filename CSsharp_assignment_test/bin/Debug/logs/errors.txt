@@ -1,0 +1,145 @@
+7/2/2025 10:20:20 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 61
+7/2/2025 10:25:08 AM: General Error: Keyword not supported: 'xpoprovider'.
+StackTrace:    at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 47
+7/2/2025 10:26:18 AM: General Error: Keyword not supported: 'xpoprovider'.
+StackTrace:    at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 47
+7/2/2025 10:27:42 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 64
+7/2/2025 10:29:03 AM: SQL Error: Login failed for user ''.
+StackTrace:    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 58
+7/2/2025 10:32:09 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 64
+7/2/2025 10:33:53 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 61
+7/2/2025 10:33:59 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 61
+7/2/2025 10:34:06 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 61
+7/2/2025 10:35:40 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 61
+7/2/2025 10:35:49 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 61
+7/2/2025 10:38:42 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 61
+7/2/2025 10:45:38 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 61
+7/2/2025 10:52:58 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 63
+7/2/2025 10:53:04 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 63
+7/2/2025 11:02:11 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 63
+7/2/2025 11:03:54 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 64
+7/2/2025 11:04:51 AM: General Error: The connection was not closed. The connection's current state is open.
+StackTrace:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 59
+7/2/2025 11:07:06 AM: General Error: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+StackTrace:    at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 61
+7/2/2025 11:07:49 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 66
+7/2/2025 11:08:15 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 66
+7/2/2025 11:13:02 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 66
+7/2/2025 11:13:22 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 66
+7/2/2025 11:17:51 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 66
+7/2/2025 11:18:00 AM: General Error: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at CSharp_assignment_test.Services.SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 66
+7/2/2025 11:21:07 AM: General Error in GetProductSales: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 55
+7/2/2025 11:23:35 AM: General Error in GetProductSales: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 55
+7/2/2025 11:25:18 AM: General Error in GetProductSales: Specified cast is not valid.
+StackTrace:    at System.Data.SqlClient.SqlBuffer.get_Int32()
+   at System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 55
+7/2/2025 12:09:21 PM: General Error in GetProductSales: The type initializer for 'System.Data.SqlClient.SqlConnection' threw an exception.
+StackTrace:    at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at SaleService.GetProductSales(DateTime startDate, DateTime endDate, String productNameFilter) in C:\Users\P-ARTH\source\repos\CSsharp_assignment_test\CSsharp_assignment_test\Services\SaleService.cs:line 35
